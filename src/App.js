@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 
-// just pushing so i can make commits tomorrow and get caught up
+// just pushing so i can make commits tomorrow and get caught up with react
 
 function App() {
   return (
