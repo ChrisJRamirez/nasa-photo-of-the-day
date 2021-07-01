@@ -2,9 +2,18 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios"
 import Picture from "./Picture"
+import styled from "styled-components"
 
 
+//styled components
 
+const styledDiv = styled.div`
+  
+`
+
+const styledHeader = styled.header`
+  
+`
 
 function App() {
 
@@ -22,10 +31,10 @@ function App() {
 
 
   return (
-    <div className="App">
-      <header>
+    <styledDiv className="App">
+      <styledHeader>
         <h1>NASA Photo of the Day</h1>
-      </header>
+      </styledHeader>
       <p>
 
       </p>
@@ -33,7 +42,7 @@ function App() {
         <Picture picture={picture} />
       </main>
 
-    </div>
+    </styledDiv>
   );
 }
 
